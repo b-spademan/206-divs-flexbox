@@ -103,6 +103,7 @@ html {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
@@ -110,11 +111,30 @@ body {
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
   justify-content: space-between;
 }
+header,
+footer {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1em;
+}
 
+main {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1em;
+}
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
@@ -125,8 +145,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-left: 1px solid #fff;
-  padding-left: 20px;
+  border-left: 1px solid #9678b6;
+  padding-left: 1em;
 }
 .div-1 {
   border: none;
